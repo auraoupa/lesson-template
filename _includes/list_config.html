@@ -5,11 +5,7 @@
             <div class="card-body">
                 <ul>
                     {% for c in site.data.configurations %}
-                    <li>
-                        <ul>
                             <li><a href="{{ c.url | relative_url }}">{{ c.name }}</a> </li>
-                        </ul>
-                    </li>
                     {% endfor %}
                     
                 </ul>
