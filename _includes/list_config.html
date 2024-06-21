@@ -8,10 +8,10 @@ layout: default
             <div class="card-body">
                 <h2 class="card-title h3">Contents</h2>
                 <ul>
-                    {% for configuration in data.configurations %}
+                    {% for c in data.configurations %}
                     <li>
                         <ul>
-                            <li><a href="{{ p.url | relative_url }}">{{ p.name }}</a> </li>
+                            <li><a href="{{ c.url | relative_url }}">{{ c.name }}</a> </li>
                         </ul>
                     </li>
                     {% endfor %}
