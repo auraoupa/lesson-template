@@ -6,9 +6,8 @@ layout: default
     <div class="m-3 col-md-8" >
         <div class="card">
             <div class="card-body">
-                <h2 class="card-title h3">Contents</h2>
                 <ul>
-                    {% for c in data.configurations %}
+                    {% for c in site.data.configurations %}
                     <li>
                         <ul>
                             <li><a href="{{ c.url | relative_url }}">{{ c.name }}</a> </li>
