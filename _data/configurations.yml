@@ -5,4 +5,4 @@
   path_gricad: "/summer/meom/MODEL_SET/eORCA05.L121/eORCA05.L121-I"
   path_jeanzay:
   path_irene:
-  url_opendap:
+  url_opendap:"https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/MEOM/eORCA05.L121/eORCA05.L121-I/catalog.html"
